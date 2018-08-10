@@ -1,0 +1,19 @@
+{
+	"name": "c94",
+	"description": "A test of D for stm32f401re.",
+	"copyright": "Copyright © 2018, Pascal Format",
+	"authors": ["SHOO"],
+	"sourcePaths": ["src"],
+	"importPaths": ["."],
+	"targetType": "executable",
+	"configurations": [
+		{
+			"name": "test",
+			"targetName": "test",
+			"dflags": [
+				"-main"
+			],
+			"versions": ["Test"]
+		}
+	]
+}
